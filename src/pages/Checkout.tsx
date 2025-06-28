@@ -77,10 +77,7 @@ const Checkout = () => {
           Finalizar compra
         </button>
 
-        <Link
-          to="/cart"
-          className="block w-full text-center py-3 px-4 border border-gray-300 rounded hover:bg-gray-50"
-        >
+        <Link to="/cart" className="block w-full text-center py-3 px-4 border border-gray-300 rounded hover:bg-gray-50">
           Volver al carrito
         </Link>
       </div>

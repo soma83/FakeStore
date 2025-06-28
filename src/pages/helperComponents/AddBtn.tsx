@@ -21,9 +21,7 @@ const AddBtn = memo(({product, addToCart}: Props) => {
     <button
       onClick={handleAddToCart}
       className={`px-1 py-2 rounded-lg transition-colors text-sm font-medium cursor-pointer min-w-[147px] ${
-        addedToCart
-          ? 'bg-green-600 text-white'
-          : 'bg-blue-600 text-white hover:bg-blue-700'
+        addedToCart ? 'bg-green-600 text-white' : 'bg-blue-600 text-white hover:bg-blue-700'
       }`}
     >
       {!addedToCart && <Icon icon={faCartPlus} className="mr-2"/>}
