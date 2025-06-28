@@ -1,11 +1,11 @@
-import {Dispatch, SetStateAction, useState, memo} from "react";
+import {memo, useState} from "react";
 import {FontAwesomeIcon as Icon} from "@fortawesome/react-fontawesome";
 import {faCartPlus} from "@fortawesome/free-solid-svg-icons";
 import type {ApiProduct} from "../../hooks/useProducts";
 
 interface Props {
   product: ApiProduct;
-  addToCart: Dispatch<SetStateAction<ApiProduct>>;
+  addToCart: (product: ApiProduct) => void;
 }
 
 const AddBtn = memo(({product, addToCart}: Props) => {

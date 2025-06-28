@@ -1,4 +1,4 @@
-import {ReactNode, useEffect, useState} from "react";
+import {type ReactNode, useEffect, useState} from "react";
 import {Link, useLocation} from "react-router-dom";
 import {FontAwesomeIcon as Icon} from "@fortawesome/react-fontawesome";
 import {faHome, faCartShopping} from "@fortawesome/free-solid-svg-icons";

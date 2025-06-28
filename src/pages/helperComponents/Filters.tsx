@@ -1,4 +1,4 @@
-import {Dispatch, SetStateAction, memo} from "react";
+import {type Dispatch, type SetStateAction, memo} from "react";
 
 interface Props {
   searchTerm: string;
