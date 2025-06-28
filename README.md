@@ -16,9 +16,9 @@ pero se recomienda usar la 20 o superior.
 
 * Clonar el repo.
 
-  `git clone repo`
+  `git clone https://github.com/soma83/FakeStore.git`
   
-  `cd repo`
+  `cd FakeStore`
 
 * Descargar las dependencias
 
